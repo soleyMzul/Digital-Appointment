@@ -1,0 +1,732 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans|Mountains+of+Christmas&display=swap");
+@import url(https://unpkg.com/@webpixels/css@1.0/dist/index.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300);
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
+body,
+html {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.flex-container {
+    display: flex;
+    height: 450px;
+}
+
+.flex-child-first-child {
+	 border: 5px solid #1b3131;height:70%;
+	width:60%;
+    margin-right: 80px;
+    margin-left: 350px;
+    background:#e6ecff;
+}
+.flex-child-second-child {
+	 border: 5px solid #261b31;height:70%;
+	width:60%;
+    margin-right: 300px;
+    margin-left: 80px;
+    background:#f9e6ff;
+}
+.profile-button a {
+    margin-left: 20px;
+    background-color: #4ac6b2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.3pt;
+    width: 100px;
+    padding: 9px 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.875rem;
+}
+
+.profile-button a:hover {
+    background-color: #35a794;
+    transition-duration: 0.4s;
+}
+
+.cover img {
+    width: 100%;
+}
+
+.img-container {
+    height: 600px;
+    width: 100%;
+    background: url(../img/banner.jpg);
+    background-size: cover;
+}
+
+.cover-btn {
+    background-color: #dd7d00;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 27%;
+    margin-left: 59.5%;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.cover-btn:hover {
+    background-color: #aa5200;
+    color: white;
+    transition-duration: 0.1s;
+}
+
+.section-1 {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.section-1 img {
+	margin-left: 20px;
+	margin-right: 10px;
+    height: 400px;
+    width: auto;
+    box-shadow: 30px 30px rgba(128, 128, 128, 0.681);
+}
+
+.section-1-text {
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.section-1-text h1 {
+    padding-right: 100px;
+}
+
+.img-cover {
+    position: relative;
+    height: 250px;
+    overflow: hidden;
+    background: url(../img/text-cover.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.inner-img-cover {
+    margin-top: 90px;
+    margin-left: 350px;
+}
+
+.dentist-row-1,
+.dentist-row-2 {
+    display: flex;
+}
+
+.row-1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.row-1 img {
+    height: 350px;
+    width: 350px;
+}
+
+.row-1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.dentist-row-1-text {
+    padding: 10px;
+    text-align: center;
+}
+
+.about {
+    display: flex;
+    margin: 100px;
+    margin-left: 300px;
+}
+
+.about img {
+    height: 500px;
+    width: auto;
+    box-shadow: 12px 12px rgba(128, 128, 128, 0.548);
+}
+
+.about-text {
+    margin-left: 50px;
+    margin-right: 200px;
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.login-option-body {
+    background: url(../img/login-option-bg.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login-option-container {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.60);
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.login-option {
+    position: relative;
+    z-index: 1;
+    background: #ffffff;
+    max-width: 460px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.login-option img {
+    width: 200px;
+    padding-bottom: 30px;
+}
+
+.login-option p {
+    text-align: justify;
+    font-size: 12px;
+}
+
+.login-option-btn {
+    margin: 20px;
+}
+
+.login-option-btn button {
+    background-color: #4c5eaf;
+    width: 140px;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.login-option-btn button:hover {
+    background-color: #2c3e8d;
+}
+
+.patient-login-container {
+    width: 360px;
+    margin: auto;
+    background-color:#d9e5f2;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.patient-login-inner-container {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 460px;
+    margin-top:1000px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.patient-login-inner-container img {
+    width: 200px;
+    padding-bottom: 30px;
+}
+
+.patient-login-inner-container h2 {
+    margin-bottom: 20px;
+}
+
+.patient-login-form input {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    margin: 10px;
+    width: 250px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 15px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.patient-login-form button {
+    background-color: #4c5eaf;
+    width: 140px;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.patient-login-form button:hover {
+    background-color: #2c3e8d;
+}
+
+.register-option-body {
+    background: url(../img/login-option-bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.layout {
+    background-color: rgba(0, 0, 0, 0.60);
+}
+
+.patient-register-container {
+    width: 360px;
+    padding: 8% 0% 2% 0%;
+    margin-left:30px;
+    margin-right:30px;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+}
+
+.patient-register-inner-container {
+    position: relative;
+    background: white;
+    width: 50%;
+    margin: 0 auto 40px;
+    padding:40px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.8), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.patient-register-inner-container h2 {
+    margin-bottom: 20px;
+}
+
+.patient-register-form {
+    text-align: left;
+    margin-left: 40px;
+}
+
+.patient-register-form label {
+    font-weight: 700;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.patient-register-form input {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    padding: 0 15px;
+    width: 580px;
+    line-height: 40px;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.patient-register-form textarea {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    width: 580px;
+    margin-top: 5px;
+}
+
+.patient-register-form select {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    width: 584px;
+    left: 100px;
+    top: -37px;
+    line-height: 100px;
+    border-radius: 6px;
+    padding: 11px 15px;
+    font-size: 16px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.patient-register-inner-container button {
+    background-color: #4c5eaf;
+    width: 140px;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.patient-register-form button:hover {
+    background-color: #2c3e8d;
+}
+
+.sidebar-container {
+    
+    width: 220px;
+    height: 100%;
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: #003f42;
+    color: #fff;
+}
+
+.content-container {
+    padding-top: 20px;
+}
+
+.sidebar-logo {
+    padding: 10px 15px 10px 15px;
+    font-size: 20px;
+    background-color: #16192c;
+}
+
+.sidebar-navigation {
+    padding: 0;
+    margin: auto;
+    list-style-type: none;
+    position: relative;
+}
+
+.sidebar-navigation li {
+    background-color: transparent;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    line-height: 20px;
+}
+
+.sidebar-navigation li a {
+    padding: 10px 15px 10px 30px;
+    display: block;
+    color: #fff;
+}
+
+.sidebar-navigation li .fa {
+    margin-right: 10px;
+}
+
+.sidebar-navigation li a:active,
+.sidebar-navigation li a:hover,
+.sidebar-navigation li a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+.sidebar-navigation li::before {
+    background-color: #2574A9;
+    position: absolute;
+    content: '';
+    height: 100%;
+    left: 0;
+    top: 0;
+    -webkit-transition: width 0.2s ease-in;
+    transition: width 0.2s ease-in;
+    width: 3px;
+    z-index: -1;
+}
+
+.sidebar-navigation li:hover::before {
+    width: 100%;
+}
+
+.sidebar-navigation .header {
+    font-size: 12px;
+    text-transform: uppercase;
+    background-color: #2e5e7a;
+    padding: 10px 15px 10px 30px;
+}
+
+.sidebar-navigation .header::before {
+    background-color: transparent;
+}
+
+.content-container {
+    padding-left: 220px;
+}
+
+.patient-list-container table {
+    background-color: rgb(255, 255, 255);
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+.wrapper{
+  display: flex;
+  position: relative;
+}
+
+.wrapper .sidebar{
+  width: 300px;
+  height: 100%;
+  background: #4b4276;
+  padding: 30px 0px;
+  
+}
+
+.wrapper .sidebar h2{
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.wrapper .sidebar ul li{
+  padding: 15px;
+  border-bottom: 1px solid #bdb8d7;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  border-top: 1px solid rgba(255,255,255,0.05);
+}    
+
+.wrapper .sidebar ul li a{
+  color: #bdb8d7;
+  display: block;
+}
+
+.wrapper .sidebar ul li a .fas{
+  width: 25px;
+}
+
+.wrapper .sidebar ul li:hover{
+  background-color: #594f8d;
+}
+    
+.wrapper .sidebar ul li:hover a{
+  color: #fff;
+}
+ 
+
+.wrapper .sidebar .social_media a{
+  display: block;
+  width: 40px;
+  background: #594f8d;
+  height: 40px;
+  line-height: 45px;
+  text-align: center;
+  margin: 0 5px;
+  color: #bdb8d7;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.wrapper .main_content{
+  width: 100%;
+  margin-left: 30px;
+}
+
+.wrapper .main_content {
+  padding: 20px;
+  background: #fff;
+  color: #717171;
+  border-bottom: 1px solid #e0e4e8;
+}
+.patient-list-container th,
+td {
+    padding: 8px;
+}
+
+.patient-list-container tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+.patient-list-container th {
+    background-color: #1ea7df;
+    color: white;
+}
+
+.patient-list-container button {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    padding: 0 10px;
+    margin: 0 5px;
+}
+
+.patient-list-container button:hover {
+    background-color: #555555;
+    color: white;
+}
+
+.patient-update-appt-button button {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    border-radius: 100px;
+    width: 150px;
+    margin-bottom: 50px;
+    padding: 10px 15px;
+}
+
+.patient-update-appt-button button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.book-appointment {
+    display: flex;
+    margin: 100px;
+    margin-left: 300px;
+}
+
+.book-appointment-container form {
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.book-appointment-container h2 {
+    padding-bottom: 20px;
+}
+
+.book-appointment-container span {
+    font-weight: bold;
+}
+
+.book-appointment-container input,
+select {
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 5px 10px;
+    width: 500px;
+}
+
+.book-appointment img {
+    width: 500px;
+}
+
+.book-appointment-container button {
+    border: none;
+    background: rgb(0, 140, 255);
+    color: white;
+    padding: 7px 30px;
+    border-radius: 100px;
+}
+
+.book-appointment-container button:hover {
+    background: rgb(0, 109, 199);
+    transition-duration: 0.2s;
+}
+
+.profile-container {
+    display: flex;
+    margin: 100px;
+    margin-left: 10%;
+}
+
+
+.detail-user {
+    margin-left: 100px;
+}
+
+.detail-user-form p {
+    font-weight: 700;
+    text-align: center;
+}
+
+.detail-user-form input,
+textarea,
+select {
+    border: 1px solid black;
+    width: 500px;
+    padding: 7px 15px;
+    margin-bottom: 20px;
+}
+
+.my-appointment-container table {
+    background-color: rgb(255, 255, 255);
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.my-appointment-container th,
+td {
+    padding: 8px;
+}
+
+.my-appointment-container tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+.my-appointment-container th {
+    background-color: #1ea7df;
+    color: white;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/*responsive*/
+
+@media(max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 574px) {
+    .footer-col {
+        width: 100%;
+    }
+}
